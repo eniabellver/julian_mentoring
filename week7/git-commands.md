@@ -4,12 +4,26 @@ Useful git commands!
 <br>
 `git branch branch-name`: same as above
 <br>
-`git add`: stages the changes to commit (tracked files)
+`git add`: stages the changes to commit
 <br>
 `git commit`: commits changes
 <br>
 `git status`: shows what files have been modified, which ones are tracked and which ones are not tracked
+<br>
+`git reset`: unstages all staged files
+<br>
+`git reset filename.js`: unstages only the files written in command
+<br>
+`git push`: pushes all our commits to the remote branch
+<br>
+`git push --set-upstream origin bug/my-bug-fix-branch`: pushes the commits AND creates a remote branch linked to our local branch (upstream branch)
+<br>
+`git pull`: gets all the changes, including new remote branches, into our local machine, and merges them right away
+<br>
+`git fetch --all`: gets all the changes, including branches, but doesn't merge them just yet
 
+
+new change
 
 <br>
 Branch conventions/rules:
